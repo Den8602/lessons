@@ -1,0 +1,113 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Truculenta:100,200,300,regular,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700,700italic&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body{
+   font-family: "Philosopher";
+   font-size: 18px;
+}
+h1, h2{
+   font-family: "Pelagy";
+   font-size: 60px;
+   color: blue;
+   text-align: center;
+   text-transform: uppercase;
+}
+h2{
+   font-size: 40px;
+   text-transform: capitalize;
+}
+.family-Truculenta{
+   font-family: "Truculenta";
+   font-size: 21px;
+}
+.family-Truculenta-oblique{
+   font-family: "Truculenta";
+   font-style: oblique;
+   color: green;
+}
+.family-weight{
+   letter-spacing: 1.66666667; /* 30/18 */
+}
+.family-itaic{
+   font-style: italic;
+   color: red;
+}
+.family-bold{
+   font-weight: 700;
+   color: blueviolet;
+}
+.family-thin{
+   font-family: "Truculenta";
+   font-weight: 100;
+   font-size: 20px;
+   color: brown;
+}
+.property-centr {
+   text-align: center;
+   color: rgba(0, 128, 0, 0.5);
+}
+.property-right {
+   text-align: right;
+}
+.property-justify {
+   text-align: justify;
+}
+h3{
+   text-align: center;
+   font-size: 30px;
+}
+.decoration-through {
+   text-decoration: line-through;
+   text-align: left;
+}
+.decoration-overline {
+   text-decoration: overline;
+   text-align: right;
+}
+.decoration-underline {
+   text-decoration: underline;
+   letter-spacing: 20px;
+}
+.decoration-shadow {
+   letter-spacing: 10px;
+   text-shadow: 10px 10px 10px red, -10px -5px 10px green;
+
+}
+.decoration-capitalize {
+   text-transform: capitalize;
+   font-size: 20px;
+}
+.decoration-lowercase {
+   text-transform: lowercase;
+   font-size: 20px;
+   line-height: 1.66666667; /* 30/18 */
+}
+.decoration-uppercase {
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.web-block {
+   font-family: "ProximaNova", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+.web-block-small {
+}
+.web-title {
+   font-family: "ProximaNova", sans-serif;
+   color: #2b2929;
+   font-size: 40px;line-height: 1.20; /* 48/40 */
+}
+.web-content {
+   color: #2b2929;
+   line-height: 1.875; /* 30/16 */
+}
+.web-title-h3{
+   font-size: 20px;
+   line-height: 1.40; /* 28/20 */
+   text-align: left;
+}
