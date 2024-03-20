@@ -1,0 +1,22 @@
+@font-face {
+   font-family: "Proxima Nova";
+   src: url("../fonts/ProximaNova.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Proxima Nova";
+   src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+@font-face {
+   font-family: "Pelagy";
+   src: url("../fonts/Pelagy.woff2") format("woff2");
+   font-weight: normal; /* 400 */
+   font-style: normal;
+   font-display: swap;
+}

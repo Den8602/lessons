@@ -1,0 +1,201 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+   font-size: 16px;
+   font-weight: 400;
+}
+.title {
+   font-family: "Pelagy";
+   font-size: 50px;
+   color: #0da0a0;
+   text-align: center;
+   margin: 20px 0px 50px 0px;
+}
+.sub-title {
+   color: brown;
+   font-size: 30px;
+}
+.other {
+   font-size: 0px;
+   margin: 0 auto;
+   max-width: 1300px;
+   margin-bottom: 200px;
+}
+.size {
+   display: inline-block;
+   background-color: #14522c;
+   color: #fff;
+   font-size: 16px;
+   max-width: 30%;
+   margin: 0px 20px 5px;
+   vertical-align: bottom;
+}
+.block-1 {
+   padding: 10px;
+   height: 75px;
+   overflow: auto;
+}
+.block-2 {
+   padding: 20px 15px;
+   text-align: center;
+}
+.block-3 {
+   padding: 20px 15px 50px 5px;
+   text-align: right;
+   overflow: visible;
+   height: 100px;
+   color: red;
+}
+.pushing {
+   margin-bottom: 50px;
+}
+.sizz {
+   display: inline-block;
+   background-color: #14522c;
+   color: #fff;
+   font-size: 16px;
+   max-width: 30%;
+   vertical-align: middle;
+}
+.block-p1 {
+   background-color: blue;
+   padding: 5px;
+   margin: -55px 10px 0px 25px;
+}
+.block-p2 {
+   background-color: rgb(255, 0, 179);
+   padding: 5px;
+   margin: 10px 0px 0px -30px;
+}
+.block-p3 {
+   background-color: rgb(179, 255, 0);
+   color: black;
+   padding: 5px;
+   margin: -40px 0px 0px 60px;
+}
+.text {
+   background-color: #bd2626;
+   padding: 20px;
+   line-height: 4.5;
+   margin: 100px;
+}
+.krovato,
+.krovato-check {
+   font-family: "Proxima Nova", sans-serif;
+   color: #2b2929;
+   font-size: 16px;
+   line-height: 1.875; /* 30/16 */
+   max-width: 1070px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.title-room {
+   font-size: 40px;
+   line-height: 1.2; /* 48/40 */
+   margin-bottom: 40px;
+   font-weight: 600;
+}
+
+.picture {
+   margin-bottom: 40px;
+}
+
+.text-room > p {
+   margin: 0 0 15px 0;
+}
+.text-room {
+   margin-bottom: 40px;
+}
+
+.title-item {
+   font-size: 20px;
+   line-height: 28px;
+   margin-bottom: 30px;
+}
+
+.text-item {
+   margin-bottom: 40px;
+}
+
+.item-room {
+   margin-bottom: 20px;
+}
+
+.image {
+   display: inline-block;
+   max-width: 32px;
+}
+
+.item-text {
+   display: inline-block;
+   max-width: 1023px;
+}
+.title-check {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.krovato-check {
+   max-width: 1290px;
+   font-size: 0px;
+}
+
+.check-items {
+   margin: 0px -5px 0px -5px;
+}
+
+.check-item {
+   display: inline-block;
+   max-width: 300px;
+   font-size: 16px;
+   text-align: center;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-right: 20px;
+}
+
+.check-image {
+   margin-bottom: 20px;
+
+}
+.check-title {
+   font-size: 26px;
+   font-family: "Proxima Nova", sans-serif;
+   font-weight: 600;
+   line-height: 1.30769231; /* 34/26 */
+   margin-bottom: 20px;
+}
+.econommer {
+   padding-top: 100px;
+   border-color: #1E28320D;
+}
+
+.follow {
+   font-size: 0px;
+   min-width: 1320px;
+   margin: 0px -12px 0px -12px;
+
+}
+
+.follow-title {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 50px;
+   text-transform: capitalize;
+   color: #000;
+   margin-bottom: 60px;
+   text-align: center;
+}
+
+.follow-content {
+   min-width: 1320px;
+   text-align: center;
+}
+
+.follow-image {
+   display: inline-block;
+   padding: 0px 12px 0px 12px;
+   margin-bottom: 24px;
+}
