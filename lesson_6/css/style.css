@@ -1,0 +1,171 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+
+.krovato-coneiner {
+   max-width: 1290px;
+   margin: 0 auto;
+}
+
+.krovato-content {
+   font-family: "Proxima Nova", sans-serif;
+   color: #2b2929;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.875; /* 30px/16px */
+   max-width: 1070px;
+   margin: 0 auto;
+}
+
+.krovato-title-h2 {
+   font-size: 40px;
+   font-weight: 600;
+   margin: 40px 0px;
+   line-height: 1.2; /* 48px/40 */
+}
+
+.krovato-picture {
+   border-radius: 8px;
+   margin-bottom: 40px;
+}
+
+.krovato-text {
+   margin-bottom: 40px;
+}
+.krovato-text-1 {
+   margin-bottom: 10px;
+}
+
+.krovato-title-h3 {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.4; /* 28px/20 */
+   margin-bottom: 30px;
+}
+
+.krovato-list {
+   margin-bottom: 40px;
+}
+
+.krovato-item {
+   margin-bottom: 20px;
+   padding-left: 47px;
+   background: url("../img/krovato/mark.png") 0 0 / auto no-repeat;
+   min-height: 32px;
+}
+/*---------------------------------*/
+.edu {
+   font-family: "Quicksand", sans-serif;
+   background: url(../img/edu/section.png) 0 0 / cover no-repeat;
+}
+
+.edu-container {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding-top: 121px;
+}
+
+.edu-content {
+   display: inline-block;
+   max-width: 600px;
+   margin-right: 130px;
+}
+
+.edu-title {
+   color: #fff;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.2; /* 48px/40px */
+   margin-bottom: 24px;
+}
+
+.edu-text {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.6; /* 32px/20 */
+   color: #fff;
+   margin-bottom: 49px;
+}
+
+.edu-link {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 1.5625; /* 25px/16 */
+   padding: 12px 20px 12px 34px;
+   background:
+      url("../img/edu/label-x2.png") 12px center / 16px no-repeat,
+      #fff;
+   border-radius: 8px;
+}
+
+.edu-picture {
+   display: inline-block;
+}
+
+.image {
+   max-width: 546px;
+   margin-top: -100px;
+   margin-right: -700px;
+}
+/*-----------------------*/
+.coral {
+   background:
+      url("../img/eco/Frame-rihte.png") center right / 195px no-repeat,
+      url("../img/eco/frame.png") bottom left / 132px no-repeat,
+      #f4f4f5;
+   color: #000;
+   font-family: "Roboto";
+}
+
+.coral-conteiner {
+   padding: 81px 30px 50px 100px;
+}
+
+.coral-row {
+}
+
+.coral-info {
+   display: inline-block;
+   width: 686px;
+   margin-right: 68px;
+}
+
+.coral-title {
+   font-size: 74px;
+   font-weight: 300;
+   line-height: 1.34545455; /* 74px/55 */
+}
+
+.coral-text {
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 1.83333333; /* 55px/30 */
+   text-transform: capitalize;
+   margin-bottom: 66px;
+}
+
+.coral-link {
+   background:
+      url("../img/eco/v6.png") 26px 50% / 24px no-repeat,
+      #000;
+   font-size: 29px;
+   color: #fff;
+   padding: 19px 26px 19px 64px;
+   text-transform: capitalize;
+}
+
+.coral-picture {
+   display: inline-block;
+   width: 442px;
+   height: 562px;
+   vertical-align: top;
+   border-radius: 160px 0px;
+   border: 2px solid #292828;
+}
+
+.coral-image {
+   overflow: hidden;
+   border-radius: 160px 0px;
+   height: 100%;
+   margin: -18px 0px 0px -18px;
+}
