@@ -1,0 +1,56 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+   background-color: #3d3d3d;
+   color: #fff;
+   font-family: "Proxima Nova", sans-serif;
+}
+.header{
+   margin-bottom: 25px;
+}
+.header-title-h1{
+   font-weight: 600;
+   font-size: 40px;
+   text-align: center;
+   padding: 30px 0px;
+}
+.page {
+}
+.page-conteiner {
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 20px 20px;
+   vertical-align: middle;
+}
+.page-image {
+   padding: 15px;
+   min-height: 100px;
+}
+
+.page-image:not(:last-child) {
+   margin-bottom: 35px;
+}
+.image {
+   margin-right: 30px;
+   max-width: 100%;
+   vertical-align: middle;
+}
+.pege-text {
+   max-height: 300px;
+   display: inline-block;
+}
+.page-image:hover{
+   color: aqua;
+}
+.image-background {
+   background: url("../img/usual/question.svg") 0 0 / auto no-repeat;
+   padding-left: 110px;
+   padding-top: 10px;
+   min-height: 45px;
+}
+.image-opti{
+   border-radius: 8px;
+}
+
+
