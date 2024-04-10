@@ -1,0 +1,151 @@
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* --------------------- */
+
+.header {
+	background-color: bisque;
+	padding: 15px;
+}
+.header__title {
+	text-align: center;
+	font-size: 35px;
+}
+/*--------------------*/
+
+.cart {
+	background-color: #f8f8f8;
+}
+.cart__container {
+	padding: 15px;
+	font-family: "ProximaNova";
+	color: #2b2929;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4; /* 28px/20 */
+}
+.cart__item {
+	max-width: 250px;
+	margin: 0 auto;
+	min-height: 300px;
+	background-color: #fff;
+	position: relative;
+	border-radius: 8px;
+}
+.cart__title {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.cart__number {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.cart__link {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+/*---------------------*/
+
+.menu {
+	font-family: "ProximaNova";
+	min-height: 700px;
+}
+.menu__container {
+	padding: 15px;
+}
+.menu__other {
+	display: inline-block;
+}
+.menu__botton-catalog {
+	padding: 11px 20px;
+	background-color: #ffbc57;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 1.26; /* 24px/19 */
+}
+.menu__botton-catalog:hover {
+	background-color: #eeac4a;
+}
+.menu__other:hover .menu__list {
+	display: block;
+	min-width: 300px;
+}
+.menu__title-link::before {
+	content: "";
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	background: url("../img/menu/close-catalog.svg") 0 0 / 100% no-repeat;
+}
+.menu__list {
+	display: none;
+}
+
+.menu__items {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4; /* 28px/20 */
+}
+.menu__item {
+	position: relative;
+	max-width: 300px;
+	padding: 10px 15px 10px 30px;
+}
+
+.menu__item:hover {
+	background-color: #ffbc57;
+}
+.menu__item:hover .sub-menu {
+	display: block;
+}
+.menu__image {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.menu__link {
+	display: block;
+	margin-right: 65px;
+}
+.menu__link::after {
+	content: "";
+	width: 24px;
+	height: 24px;
+	background: url("../img/menu/arrow.svg") 0 0 / 100% no-repeat;
+	vertical-align: middle;
+	position: absolute;
+	top: 18px;
+	right: 24px;
+}
+.menu__link:hover::after {
+	background: url("../img/menu/arrow2.svg") 0 0 / 100% no-repeat;
+}
+.sub-menu {
+	position: absolute;
+	left: 100%;
+	top: -60px;
+	padding: 10px;
+	z-index: 2;
+	width: 100%;
+	min-width: 90px;
+	display: none;
+}
+.sub-menu__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+.sub-menu__link {
+	color: #2b2929;
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 2.1; /* 40px/19 */
+}
+.sub-menu__link:hover {
+	text-decoration: underline;
+}
