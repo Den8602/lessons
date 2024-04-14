@@ -30,7 +30,7 @@ h2 {
 	padding: 20px;
 	text-align: center;
 }
-.block__items {
+.block {
 	display: inline-block;
 	max-width: 200px;
 	min-height: 200px;
@@ -63,7 +63,7 @@ h2 {
 	transform-origin: top left;
 	transform: rotate(45deg);
 }
-.block3d_items {
+.block3d {
 	display: inline-block;
 	max-width: 200px;
 	min-height: 200px;
