@@ -47,19 +47,19 @@ h2 {
 	padding-top: 20px;
 	transition: all 1s;
 }
-.block__item--translate:hover {
+.block--translate:hover .block__item--translate {
 	transform: translate(10px, 15px);
 }
-.block__item--scale:hover {
+.block--scale:hover .block__item--scale {
 	transform: scale(1, -1);
 }
-.block__item--rotate:hover {
+.block--rotate:hover .block__item--rotate {
 	transform: rotate(45deg);
 }
-.block__item--skew:hover {
+.block--skew:hover .block__item--skew {
 	transform: skew(15deg, 15deg);
 }
-.block__item--origin:hover {
+.block--origin:hover .block__item--origin {
 	transform-origin: top left;
 	transform: rotate(45deg);
 }
@@ -83,16 +83,16 @@ h2 {
 	padding-top: 20px;
 	transition: all 1s;
 }
-.block3d__item--translate:hover {
+.block3d--translate:hover .block3d__item--translate {
 	transform: translate3d(20px, 50px, 90px);
 }
-.block3d__item--scale:hover {
+.block3d--scale:hover .block3d__item--scale {
 	transform: scale3d(-1, 0.8, 0.6);
 }
-.block3d__item--rotate:hover {
+.block3d--rotate:hover .block3d__item--rotate {
 	transform: rotate3d(30, 20, 50, -50deg);
 }
-.block3d__item--back:hover {
+.block3d--back:hover .block3d__item--back {
 	transform: rotateY(-180deg);
 	backface-visibility: hidden;
 }
@@ -150,7 +150,7 @@ h2 {
 .car__wheel-shadow {
 	width: 75px;
 	height: 75px;
-	background-color: #494c71;
+	background-color: #53567c;
 	border-radius: 50%;
 	padding: 2.3px;
 	box-shadow: 0px -10px 5px #ad1010;
@@ -201,6 +201,10 @@ h2 {
 	height: 15px;
 	background-color: #a10b0b;
 	transition: all 0.3s;
+	-webkit-border-radius: 7px 5px 5px 5px;
+	-moz-border-radius: 7px 5px 5px 5px;
+	-ms-border-radius: 7px 5px 5px 5px;
+	-o-border-radius: 7px 5px 5px 5px;
 }
 .car__marker:hover {
 	background-color: #f53a3a;
@@ -245,7 +249,7 @@ h2 {
 	top: 5px;
 	left: 110px;
 }
-.footer{
+.footer {
 	min-height: 100px;
 	background-color: bisque;
 }
