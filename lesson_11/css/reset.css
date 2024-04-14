@@ -8,12 +8,12 @@
 }
 *::before,
 *::after {
-	display: inline-block;
+	display: inline-block__items;
 }
 a {
 	text-decoration: none;
 	color: inherit;
-	display: inline-block;
+	display: inline-block__items;
 }
 li {
 	list-style: none;
