@@ -98,9 +98,14 @@ h2 {
 }
 /*------------------------*/
 .car {
+	background: url("../img/doroga.webp") center / cover no-repeat;
+	min-height: 400px;
+	position: relative;
 }
 .car__container {
 	padding: 100px;
+	position: absolute;
+	top: 180px;
 }
 .car__box {
 	position: relative;
@@ -239,4 +244,8 @@ h2 {
 	position: absolute;
 	top: 5px;
 	left: 110px;
+}
+.footer{
+	min-height: 100px;
+	background-color: bisque;
 }
