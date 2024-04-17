@@ -1,0 +1,206 @@
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Animation */
+@import url("anime.css");
+
+/* --------------------- */
+
+.header {
+	background-color: bisque;
+	padding: 15px;
+}
+.header__title {
+	text-align: center;
+	font-size: 45px;
+}
+/*--------------------*/
+.wrapper {
+	background-color: black;
+}
+.car {
+	background: url("../img/doroga.webp") center / cover no-repeat;
+	min-height: 524px;
+	position: relative;
+	animation: twilight 4s linear forwards;
+}
+.car__container {
+	padding: 100px;
+	position: absolute;
+	top: 280px;
+}
+.car__box {
+	position: relative;
+	width: 420px;
+	animation: box-go 5s linear 9s alternate forwards;
+}
+.car__body {
+	width: 400px;
+	height: 70px;
+	background-color: #f30b0b;
+	border-radius: 100px 95px 8px 5px;
+	transform: skew(25deg, 0);
+}
+.car__door {
+	width: 120px;
+	height: 60px;
+	background-color: #f30b0b;
+	border-radius: 8px 5px 10px 5px;
+	border: 1px solid black;
+	transform: skew(5deg, 0);
+	position: absolute;
+	top: 2px;
+	left: 105px;
+	padding-top: 10px;
+}
+.car__door > p {
+	text-align: center;
+	font-size: 35px;
+}
+.car__lantern {
+	position: absolute;
+	top: 5px;
+	left: 360px;
+	width: 20px;
+	height: 25px;
+	background-color: #ccc7d4;
+	border-radius: 25px 0px 0px 25px;
+	transform: skew(-15deg, 0deg);
+	transition: all 0.3s;
+	animation: lantern 2s linear 5s forwards;
+}
+.car__lantern:hover {
+	box-shadow: 20px 0px 20px #f3f706;
+}
+.car__wheel-shadow {
+	width: 75px;
+	height: 75px;
+	background-color: #53567c;
+	border-radius: 50%;
+	padding: 2.3px;
+	box-shadow: 0px -10px 5px #ad1010;
+}
+.car__wheel--one {
+	animation: rotate-one 0.5s 9s linear infinite;
+}
+.car__wheel--second {
+	animation: rotate-second 0.5s 7.5s linear infinite;
+}
+.car__wheel {
+	width: 70px;
+	height: 70px;
+	background-color: #4b4848;
+	border-radius: 50%;
+	border: 5px dashed black;
+	padding: 5px;
+	transition: all 0.3s;
+}
+.car__wheel:hover {
+	transform: rotate(180deg);
+}
+.car__wheel-shadow--one {
+	position: absolute;
+	top: 35px;
+	left: 300px;
+}
+.car__tire {
+	width: 50px;
+	height: 50px;
+	background-color: #dacbcb;
+	border-radius: 50%;
+}
+.car__wheel-shadow--second {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+}
+.car__glass {
+	position: absolute;
+	top: -29px;
+	left: 225px;
+	width: 5px;
+	height: 30px;
+	background-color: aquamarine;
+	transform: skew(25deg, 0deg);
+}
+.car__marker {
+	position: absolute;
+	top: 25px;
+	left: 8px;
+	border-radius: 7px 5px 5px 5px;
+	width: 20px;
+	height: 15px;
+	background-color: #a10b0b;
+	transition: all 0.3s;
+	animation: marker 2s linear 5s forwards;
+}
+.car__marker:hover {
+	background-color: #f53a3a;
+	box-shadow: -15px 0px 20px #f53a3a;
+}
+.car__image {
+	width: 100%;
+}
+.car__mirror {
+	width: 3px;
+	height: 15px;
+	background-color: #dacbcb;
+	transform: skew(10deg, 0deg);
+	position: absolute;
+	top: -10px;
+	left: 250px;
+}
+.car__seat {
+	height: 10px;
+	width: 15px;
+	background-color: #b98b0b;
+	border-radius: 15px 15px 0px 0px;
+	transform: skew(25deg, 0deg);
+	position: absolute;
+	top: -9px;
+	left: 110px;
+}
+.car__picture {
+	height: 80px;
+	width: 180px;
+	position: absolute;
+	top: 6px;
+	left: 160px;
+	opacity: 0.8;
+}
+.car__handle {
+	width: 16px;
+	height: 6px;
+	background-color: #4b4848;
+	border-radius: 0px 0px 25px 25px;
+	position: absolute;
+	top: 5px;
+	left: 110px;
+}
+.car__image {
+	width: 100%;
+}
+.car__spider {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -39px;
+	left: 120px;
+	opacity: 0;
+	animation: head 1s 4.5s linear forwards;
+}
+.car__stars {
+	width: 150px;
+	height: 70px;
+	position: absolute;
+	top: 8px;
+	left: -75px;
+	opacity: 0;
+	animation: spark 3s linear 8s alternate infinite;
+}
+.car__spark {
+	width: 100%;
+}
