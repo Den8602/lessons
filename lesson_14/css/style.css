@@ -295,10 +295,6 @@ img {
    max-width: 460px;
    margin: 0 auto;
    transition: all 0.5s;
-   -webkit-transition: all 0.5s;
-   -moz-transition: all 0.5s;
-   -ms-transition: all 0.5s;
-   -o-transition: all 0.5s;
 }
 .form__button:hover {
    background-color: #eba63e;
