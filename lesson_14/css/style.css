@@ -236,7 +236,7 @@ img {
    display: inline-flex;
    position: relative;
 }
-.radio-payment__input {
+.radio__input {
    position: absolute;
    top: 0;
    left: 0;
@@ -244,7 +244,7 @@ img {
    height: 0;
    opacity: 0;
 }
-.radio-payment__label {
+.radio__label {
    color: #2b2929;
    font-size: 17px;
    font-weight: 400;
@@ -256,7 +256,7 @@ img {
    cursor: pointer;
    transition:all 0.5s;
 }
-.radio-payment__label::before {
+.radio__label::before {
    content: "";
    width: 24px;
    height: 24px;
@@ -265,7 +265,7 @@ img {
    flex-shrink: 0;
    transition: all 0.5s;
 }
-.radio-payment__input:checked + .radio-payment__label::before {
+.radio__input:checked + .radio__label::before {
    background: url("../img/check-circle.svg") center / contain no-repeat;
    width: 24px;
    height: 24px;
