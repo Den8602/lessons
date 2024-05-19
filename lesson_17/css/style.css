@@ -263,6 +263,7 @@ img {
 	position: relative;
 	border-radius: 20px;
 	overflow: hidden;
+	transition: all 0.5s;
 }
 @media (any-hover: hover) {
 	.dress__item:hover {
