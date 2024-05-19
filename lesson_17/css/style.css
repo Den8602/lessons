@@ -200,7 +200,7 @@ img {
 }
 @media (max-width: 660px) {
 	.products__sublink {
-		padding-top: none;
+		padding-top: 0;
 	}
 	.products__top--mb {
 		margin-bottom: 20px;
