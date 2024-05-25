@@ -106,10 +106,12 @@ img {
 	max-width: 260px;
 	border-radius: 8px;
 }
-.products__picture img {
-	max-width: 100%;
+.products__picture {
+	width: 100%;
 	height: 100%;
-	object-fit: contain;
+	aspect-ratio: 220 / 260;
+	object-fit: cover;
+	border-radius: 8px;
 }
 .products__picture {
 	transition: all 0.5s;
@@ -141,7 +143,7 @@ img {
 	align-items: center;
 	gap: 5px;
 }
-.products__check img {
+.products__check {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
@@ -208,7 +210,7 @@ img {
 	transition: all 0.5s;
 }
 .products__basket img {
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	object-fit: contain;
 }
@@ -281,7 +283,7 @@ img {
 	.dress__item:hover {
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 		transform: scale(1.02);
-	}
+}
 }
 .dress__item:nth-child(3) {
 	grid-column: 2 / span 2;
