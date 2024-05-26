@@ -642,7 +642,7 @@ body {
   }
 }
 @media (max-width: 500px) {
-  .about__skiils {
+  .about__skills {
     display: none;
   }
 }
@@ -652,7 +652,7 @@ body {
   }
 }
 
-.skiils__list {
+.skills__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -667,7 +667,7 @@ body {
       flex-wrap: wrap;
 }
 @media (max-width: 600px) {
-  .skiils__list {
+  .skills__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -677,7 +677,7 @@ body {
   }
 }
 @media (max-width: 500px) {
-  .skiils__list {
+  .skills__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -694,7 +694,7 @@ body {
   }
 }
 @media (max-width: 380px) {
-  .skiils__list {
+  .skills__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -703,7 +703,7 @@ body {
         flex-wrap: nowrap;
   }
 }
-.skiils__item {
+.skills__item {
   font-family: Orbitron;
   font-size: 20px;
   font-weight: 500;
@@ -715,12 +715,12 @@ body {
           align-items: center;
 }
 @media (max-width: 720px) {
-  .skiils__item {
+  .skills__item {
     font-size: 16px;
   }
 }
 @media (max-width: 500px) {
-  .skiils__item {
+  .skills__item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -729,11 +729,11 @@ body {
   }
 }
 @media (max-width: 380px) {
-  .skiils__item {
+  .skills__item {
     display: none;
   }
 }
-.skiils__item::after {
+.skills__item::after {
   content: "";
   margin-left: 60px;
   width: 10px;
@@ -743,7 +743,7 @@ body {
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(66, 255, 0) 50%, rgb(36, 0, 255) 100%);
 }
 @media (max-width: 500px) {
-  .skiils__item::after {
+  .skills__item::after {
     margin-left: 15px;
     width: 4px;
     height: 4px;
@@ -752,7 +752,8 @@ body {
 
 /*----------------------------*/
 .best {
-  background: url("../img/best/vector.png") top center/100% no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), color-stop(85.54%, rgba(0, 0, 0, 0.99))), url("../img/best/vector.png") center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.99) 85.54%), url("../img/best/vector.png") center/cover no-repeat;
 }
 .best__subtitle {
   font-size: 40px;
