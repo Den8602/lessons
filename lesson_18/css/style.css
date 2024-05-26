@@ -863,8 +863,10 @@ body {
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
-.best__item:hover {
-  opacity: 1;
+@media (any-hover: hover) {
+  .best__item:hover {
+    opacity: 1;
+  }
 }
 @media (max-width: 720px) {
   .best__item {
@@ -876,6 +878,13 @@ body {
 .best__picture {
   position: relative;
   overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+@media (any-hover: hover) {
+  .best__picture:hover {
+    outline: 10px solid #9700FF;
+  }
 }
 @media (max-width: 720px) {
   .best__picture {
@@ -906,15 +915,37 @@ body {
 }
 .best__button {
   position: absolute;
-  top: 35%;
-  left: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 20%;
+  left: 20%;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
-.best__button:hover {
-  -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+@media (any-hover: hover) {
+  .best__button:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+.best__text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
 }
 @media (max-width: 720px) {
   .best__icon {
