@@ -235,11 +235,14 @@ body {
   font-family: Orbitron;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.25; /* 20px/16 */
+  line-height: 1.25;
+  /*20px/16*/
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 @media (any-hover: hover) {
   .header__link:hover {
-    text-decoration: underline;
+    background-color: #6F00A9;
   }
 }
 @media (max-width: 450px) {
