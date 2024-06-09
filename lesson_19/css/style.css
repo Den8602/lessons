@@ -1306,6 +1306,7 @@ html {
 /*-----------------------------*/
 .bottom__container {
   padding-top: 140px;
+  padding-bottom: 90px;
   display: grid;
   grid-template-columns: 392px 200px 200px 200px;
   -webkit-box-pack: justify;
