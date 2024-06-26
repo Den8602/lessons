@@ -1,0 +1,133 @@
+@use "sass:math";
+
+// Підключення шрифтів з Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:regular,700&display=swap");
+// Локальне підключення шрифтів
+@import "_fonts.scss";
+// Скидання стилів
+@import "_reset.scss";
+// Міксіни
+@import "_mixins.scss";
+// Окремі сторінки
+// @import "_home.scss";
+// Окремі компоненти
+// @import "_header.scss";
+// @import "_footer.scss";
+// ...
+
+// Налаштування адаптивної сітки ===============================================================================================================================================================================================================================================================================================
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1320;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+// ==========================================================
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: "Open Sans";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+	background: url('../img/rain.jpg') 0 0 / cover no-repeat;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ------------------------- */
+[class*="__container"] {
+	max-width: toRem(1350);
+	padding-left: toRem(15);
+	padding-right: toRem(15);
+	margin: 0 auto;
+}
+/* ------------------------ */
+.header {
+	text-align: center;
+	padding-block: toRem(45);
+		// .header__title
+
+		&__title {
+			font-family: 'Pacifico';
+			font-size: toRem(45);
+		}
+}
+.problem {
+	text-align: center;
+	font-size: toRem(20);
+		// .problem__container
+
+		&__container {
+		}
+
+		// .problem__items
+
+		&__items {
+			max-width: toRem(400);
+			margin: 0 auto;
+			background-color: #a1df11;
+			border-radius: toRem(15);
+			padding: toRem(10) toRem(10) toRem(10) toRem(10);
+			margin-bottom: toRem(15);
+			p{
+				margin-bottom: toRem(15);
+				font-style: italic;
+				font-size: toRem(25);
+			}
+		}
+
+		// .problem__title
+
+		&__title {
+			text-align: center;
+			margin-bottom: toRem(15);
+		}
+
+		// .problem__list
+
+		&__list {
+			margin-bottom: toRem(15);
+		}
+
+		// .problem__item
+
+		&__item {
+			&:not(:last-child){
+				margin-bottom: toRem(10);
+			}
+		}
+
+		// .problem__answer
+
+		&__answer {
+		}
+
+		// .problem__text
+
+		&__text {
+			display: flex;
+			flex-direction: column;
+			gap: toRem(10);
+			margin-bottom: toRem(15);
+		}
+}
+.title-problem {
+	font-family: 'Lobster';
+	font-size: toRem(30);
+}
