@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Підключення окремого файлу стилів -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері -->
+		<title>Lesson 22</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1 class="header__title">
+					Знайомство з Java Script частина 2
+				</h1>
+			</header>
+			<main class="page">
+				<div class="problem">
+					<div class="problem__container">
+						<div class="problem__items">
+							<h2 class="problem__title title-problem">
+								Задача №1
+							</h2>
+							<p>
+								Що потрапить в консоль?
+							</p>
+							<ul class="problem__list">
+								<li class="problem__item">
+									let someVar = 0;
+								</li>
+								<li class="problem__item">
+									++someVar;
+								</li>
+								<li class="problem__item">
+									if (someVar) {
+								</li>
+								<li class="problem__item">
+									console.log(someVar);
+								</li>
+								<li class="problem__item">
+									}
+								</li>
+							</ul>
+							<div class="problem__answer">
+								<h2 class="problem__title title-problem">
+									Відповідь
+								</h2>
+								<p>
+									У консоль виведеться число 1
+								</p>
+							</div>
+						</div>
+						<div class="problem__items">
+							<h2 class="problem__title title-problem">
+								Задача №2
+							</h2>
+							<p>
+								За допомогою циклу FOR виведіть в консоль 10 рядків:
+							</p>
+							<div class="problem__text problem__text--centr">
+								<span>Пункт №1</span>
+								<span>Пункт №2</span>
+								<span>і т.д.</span>
+							</div>
+							<div class="problem__answer">
+								<h2 class="problem__title title-problem">
+									Відповідь
+								</h2>
+								<ul class="problem__list">
+									<li class="problem__item">
+										for (let i = 1; i &lt;= 10; i++) {
+									</li>
+									<li class="problem__item">
+										console.log("Пункт №" + i)
+									</li>
+									<li class="problem__item">
+										}
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="problem__items">
+							<h2 class="problem__title title-problem">
+								Задача №3
+							</h2>
+							<p>
+								Що потрапить в консоль?
+							</p>
+							<div class="problem__text">
+								<span>
+									if (2 * 20 &lt;= 10 || 30 / 2 &lt; 5 && 10 &lt;= "10" || 20 ===
+									"20") {
+								</span>
+								<span>
+									console.log('000')
+								</span>
+								<span>
+									}
+								</span>
+							</div>
+							<div class="problem__answer">
+								<h2 class="problem__title title-problem">
+									Відповідь
+								</h2>
+								<p>
+									не виконаеться
+								</p>
+							</div>
+						</div>
+						<div class="problem__items">
+							<h2 class="problem__title title-problem">
+								Задача №4
+							</h2>
+							<p>
+								Створіть функцію, яка повертає результат ділення числа a на число b з
+								додаванням рядка "Результат ділення: "
+								Викличте функцію передаючі різні значення, у тому числі не передаючи
+								зовсім.
+								Функція не має повертати NaN, Infinite або помилку
+							</p>
+
+							<div class="problem__answer">
+								<h2 class="problem__title title-problem">
+									Відповідь
+								</h2>
+								<div class="problem__text">
+									<span>
+										function divide(a, b) {
+									</span>
+									<span>
+										if (typeof a !== 'number' || typeof b !== 'number' || b === 0) {
+									</span>
+									<span>
+										return "Результат ділення: Невірні аргументи"
+									</span>
+									<span>
+										}
+									</span>
+									<span>
+										const result = a / b;
+									</span>
+									<span>
+										return "Результат ділення: " + result;
+									</span>
+									<span>
+										}
+									</span>
+									<span>console.log(divide(10, 2));</span>
+								</div>
+							</div>
+						</div>
+						<div class="problem__items">
+							<h2 class="problem__title title-problem">
+								Задача №5
+							</h2>
+							<p>
+								Створіть масив даних - 5 елементів, один з яких число 10
+								Обробіть масив за допомогою методу перебору
+								Перевіряйте елемент на відповідність числу 10, та у разі відповідності,
+								виводьте в консоль
+							</p>
+							<div class="problem__answer">
+								<h2 class="problem__title title-problem">
+									Відповідь
+								</h2>
+								<div class="problem__text">
+									<span>
+										const myArray = [5, 8, 10, 15, 20]
+									</span>
+									<span>
+										myArray.forEach((element) => {
+									</span>
+									<span>
+										if (element === 10) {
+									</span>
+									<span>
+										console.log("Знайдено число 10!")
+									</span>
+									<span>
+										}
+									</span>
+									<span>
+										})
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+				<footer class="footer">
+				</footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
